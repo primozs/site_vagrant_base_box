@@ -1,0 +1,15 @@
+#################################
+# VAGRANT DEV
+#################################
+
+#################################
+# base settings
+#################################
+base-admin_email: primoz.susa@gmail.com   
+base-hostname: travelslo
+base-host_fqdn: niceclouds.com
+base-hostip: 192.168.56.55
+base-timezone: Europe/Ljubljana
+
+#etc..
+    

@@ -1,0 +1,12 @@
+:backends: yaml
+
+:yaml:
+  :datadir: hieradata # relative to hiera.yaml for vagrant
+
+# common is the leeast important
+:hierarchy:  
+  - "%{::clientcert}" 
+  - "%{::environment}"
+  - common 
+  
+:logger: puppet

@@ -1,0 +1,25 @@
+#
+# THIS FILE IS MANAGED BY PUPPET
+# <%= file %>
+#
+
+127.0.0.1       localhost.localdomain    localhost      puppet
+<%= ip %>	<%= hfqdn %>	<%= hostname %>
+
+<% if @master_ip %>
+# PUPPET MASTER EXAMPLE
+# 192.168.56.6    stenarmaster.example.com stenarmaster puppet
+<%= @master_ip %>	<%= @master_fqdn %>	<%= @master_hostname %>
+<% end %>
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
+
+
+
